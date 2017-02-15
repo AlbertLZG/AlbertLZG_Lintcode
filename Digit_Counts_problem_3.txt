@@ -1,0 +1,24 @@
+Digit Counts
+
+Count the number of k's between 0 and n. k can be 0 - 9.
+
+Have you met this question in a real interview? Yes
+Example
+if n = 12, k = 1 in
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+we have FIVE 1's (1, 10, 11, 12)
+
+Tags 
+Enumeration
+
+统计数字
+
+计算数字k在0到n中的出现的次数，k可能是0~9的一个值
+
+您在真实的面试中是否遇到过这个题？ Yes
+样例
+例如n=12，k=1，在 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]，我们发现1出现了5次 (1, 10, 11, 12)
+
+标签 
+枚举法

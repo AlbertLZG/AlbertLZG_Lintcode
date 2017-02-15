@@ -1,0 +1,30 @@
+Trailing Zeros
+
+Write an algorithm which computes the number of trailing zeros in n factorial.
+
+Have you met this question in a real interview? Yes
+Example
+11! = 39916800, so the out should be 2
+
+Challenge 
+O(log N) time
+
+Tags 
+Mathematics
+Related Problems 
+
+
+ 尾部的零
+
+设计一个算法，计算出n阶乘中尾部零的个数
+
+您在真实的面试中是否遇到过这个题？ Yes
+样例
+11! = 39916800，因此应该返回 2
+
+挑战 
+O(logN)的时间复杂度
+
+标签 
+数学
+相关题目 

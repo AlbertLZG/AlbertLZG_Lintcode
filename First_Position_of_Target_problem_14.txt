@@ -1,0 +1,39 @@
+First Position of Target
+
+For a given sorted array (ascending order) and a target number, find the first index of this number in O(log n) time complexity.
+
+If the target number does not exist in the array, return -1.
+
+Have you met this question in a real interview? Yes
+Example
+If the array is [1, 2, 3, 3, 4, 5, 10], for given target 3, return 2.
+
+Challenge 
+If the count of numbers is bigger than 2^32, can your code work properly?
+
+Tags 
+Binary Search Array
+Related Problems 
+Easy Classical Binary Search 43 %
+Medium Unique Binary Search Trees 35 %
+Easy Sqrt(x) 25 %
+Medium Search Range in Binary Search Tree 37 %
+
+二分查找
+
+给定一个排序的整数数组（升序）和一个要查找的整数target，用O(logn)的时间查找到target第一次出现的下标（从0开始），如果target不存在于数组中，返回-1。
+
+您在真实的面试中是否遇到过这个题？ Yes
+样例
+在数组 [1, 2, 3, 3, 4, 5, 10] 中二分查找3，返回2。
+
+挑战 
+如果数组中的整数个数超过了2^32，你的算法是否会出错？
+
+标签 
+二分法 数组
+相关题目 
+容易 经典二分查找问题 43 %
+中等 不同的二叉查找树 35 %
+容易 x的平方根 25 %
+中等 二叉查找树中搜索区间 37 %

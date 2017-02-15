@@ -1,0 +1,43 @@
+ Implement Queue by Two Stacks
+
+As the title described, you should only use two stacks to implement a queue's actions.
+
+The queue should support push(element), pop() and top() where pop is pop the first(a.k.a front) element in the queue.
+
+Both pop and top methods should return the value of first element.
+
+Have you met this question in a real interview? Yes
+Example
+push(1)
+pop()     // return 1
+push(2)
+push(3)
+top()     // return 2
+pop()     // return 2
+Challenge 
+implement it by two stacks, do not use any other data structure and push, pop and top should be O(1) by AVERAGE.
+
+Tags 
+LintCode Copyright Stack Queue
+Related Problems 
+Medium Min Stack
+
+用栈实现队列
+
+正如标题所述，你需要使用两个栈来实现队列的一些操作。
+
+队列应支持push(element)，pop() 和 top()，其中pop是弹出队列中的第一个(最前面的)元素。
+
+pop和top方法都应该返回第一个元素的值。
+
+您在真实的面试中是否遇到过这个题？ Yes
+样例
+比如push(1), pop(), push(2), push(3), top(), pop()，你应该返回1，2和2
+
+挑战 
+仅使用两个栈来实现它，不使用任何其他数据结构，push，pop 和 top的复杂度都应该是均摊O(1)的
+
+标签 
+LintCode 版权所有 栈 队列
+相关题目 
+中等 带最小值操作的栈 33 %

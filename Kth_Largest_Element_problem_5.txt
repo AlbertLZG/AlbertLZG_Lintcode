@@ -1,0 +1,49 @@
+Kth Largest Element
+
+ Description
+ Notes
+ Testcase
+ Judge
+Find K-th largest element in an array.
+
+ Notice
+
+You can swap elements in the array
+
+Have you met this question in a real interview? Yes
+Example
+In array [9,3,2,4,8], the 3rd largest element is 4.
+
+In array [1,2,3,4,5], the 1st largest element is 5, 2nd largest element is 4, 3rd largest element is 3 and etc.
+
+Challenge 
+O(n) time, O(1) extra memory.
+
+Tags 
+Quick Sort Sort
+Related Problems 
+Medium Wiggle Sort II 25 %
+Medium Kth Smallest Number in Sorted Matrix 22 %
+Easy Median 23%
+
+在数组中找到第k大的元素
+
+ 注意事项
+
+你可以交换数组中的元素的位置
+
+您在真实的面试中是否遇到过这个题？ Yes
+样例
+给出数组 [9,3,2,4,8]，第三大的元素是 4
+
+给出数组 [1,2,3,4,5]，第一大的元素是 5，第二大的元素是 4，第三大的元素是 3，以此类推
+
+挑战 
+要求时间复杂度为O(n)，空间复杂度为O(1)
+
+标签 
+快速排序 排序
+相关题目 
+中等 摆动排序 II 25 %
+中等 排序矩阵中的从小到大第k个数 22 %
+容易 中位数 23 %

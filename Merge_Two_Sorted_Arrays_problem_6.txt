@@ -1,0 +1,51 @@
+Merge Two Sorted Arrays
+
+ Description
+ Notes
+ Testcase
+ Judge
+Merge two given sorted integer array A and B into a new sorted integer array.
+
+Have you met this question in a real interview? Yes
+Example
+A=[1,2,3,4]
+
+B=[2,4,5,6]
+
+return [1,2,2,3,4,4,5,6]
+
+Challenge 
+How can you optimize your algorithm if one array is very large and the other is very small?
+
+Tags 
+Sorted Array Array
+Related Problems 
+Easy Intersection of Two Arrays II 19 %
+Easy Intersection of Two Arrays 23 %
+Easy Merge Two Sorted Lists 39 %
+Medium Merge k Sorted Lists 28 %
+Easy Merge Sorted Array 34 %
+
+ 合并排序数组
+
+ 描述
+ 笔记
+ 数据
+ 评测
+合并两个排序的整数数组A和B变成一个新的数组。
+
+您在真实的面试中是否遇到过这个题？ Yes
+样例
+给出A=[1,2,3,4]，B=[2,4,5,6]，返回 [1,2,2,3,4,4,5,6]
+
+挑战 
+你能否优化你的算法，如果其中一个数组很大而另一个数组很小？
+
+标签 
+排序数组 数组
+相关题目 
+容易 两数组的交 II 19 %
+容易 两数组的交 23 %
+容易 合并两个排序链表 39 %
+中等 合并k个排序链表 28 %
+容易 合并排序数组 II

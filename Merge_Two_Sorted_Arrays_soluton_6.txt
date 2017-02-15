@@ -1,0 +1,28 @@
+思路：
+参考归并排序中归并两个排好顺序的数组的方法，这里要注意两个数组长度不一定相等。
+
+代码：
+#python：
+class Solution:
+    #@param A and B: sorted integer array A and B.
+    #@return: A new sorted integer array
+    def mergeSortedArray(self, A, B):
+        # write your code here
+        res = []
+        indexA = indexB = 0
+        for i in range(len(A)+len(B)):
+            if A[indexA]<B[indexB]:
+                res.append(A[indexA])
+                indexA += 1
+            else:
+                res.append(B[indexB])
+                indexB += 1
+            if indexA == len(A):
+                res.extend(B[indexB:])
+                break
+            elif indexB == len(B):
+                res.extend(A[indexA:])
+                break
+            else:
+                pass
+        return res

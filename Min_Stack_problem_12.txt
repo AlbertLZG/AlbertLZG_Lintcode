@@ -1,0 +1,43 @@
+ Min Stack
+
+Implement a stack with min() function, which will return the smallest number in the stack.
+
+It should support push, pop and min operation all in O(1) cost.
+
+ Notice
+
+min operation will never be called if there is no number in the stack.
+
+Have you met this question in a real interview? Yes
+Example
+push(1)
+pop()   // return 1
+push(2)
+push(3)
+min()   // return 2
+push(1)
+min()   // return 1
+Tags 
+Stack Zenefits Uber Google
+Related Problems 
+Medium Implement Queue by Two Stacks 40 %
+
+
+带最小值操作的栈
+
+实现一个带有取最小值min方法的栈，min方法将返回当前栈中的最小值。
+
+你实现的栈将支持push，pop 和 min 操作，所有操作要求都在O(1)时间内完成。
+
+ 注意事项
+
+如果堆栈中没有数字则不能进行min方法的调用
+
+您在真实的面试中是否遇到过这个题？ Yes
+样例
+如下操作：push(1)，pop()，push(2)，push(3)，min()， push(1)，min() 返回 1，2，1
+
+标签 
+栈 Zenefits 优步 谷歌
+相关题目 
+中等 用栈实现队列 40%

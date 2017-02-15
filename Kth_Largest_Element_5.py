@@ -1,0 +1,26 @@
+class Solution:
+    # @param k & A a integer and an array
+    # @return ans a integer
+    def kthLargestElement(self, k, A):
+        low, high = 0, len(A)-1
+        LL = self.quickSort(A, low, high)
+        return LL[high-k+1]
+
+    #quick sort
+    def quickSort(self, L, low, high):
+        i = low 
+        j = high
+        if i >= j:
+            return L
+        key = L[i]
+        while i < j:
+            while i < j and L[j] >= key:
+                j = j-1                                                             
+            L[i] = L[j]
+            while i < j and L[i] <= key:    
+                i = i+1 
+            L[j] = L[i]
+        L[i] = key 
+        self.quickSort(L, low, i-1)
+        self.quickSort(L, j+1, high)
+        return L
